@@ -1,0 +1,163 @@
+/*
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 40px;
+}
+
+
+.container {
+  text-align: center;
+}
+
+
+.bus {
+  display: grid;
+  grid-template-columns: repeat(5, 60px);
+  gap: 12px;
+  margin: 20px;
+}
+
+
+.seat {
+  height: 50px;
+  width: 60px;
+  background: #90ee90;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.seat:hover {
+  transform: scale(1.1);
+}
+
+
+.booked {
+  background: #ff4d4d;
+  cursor: not-allowed;
+}
+
+.selected {
+  background: orange;
+}
+
+
+.aisle {
+  width: 30px;
+}
+
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background: #333;
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: gray;
+}
+
+
+.summary {
+  width: 250px;
+  background: #f7f7f7;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.history {
+  background: #eaeaea;
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+  */
+
+  .main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 20px;
+}
+
+/* Bus */
+.container {
+  text-align: center;
+}
+
+.bus {
+  display: grid;
+  grid-template-columns: repeat(5, 60px);
+  gap: 12px;
+  margin: 20px;
+}
+
+/* Seat */
+.seat {
+  height: 50px;
+  width: 60px;
+  background: lightgreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.booked {
+  background: red;
+  cursor: not-allowed;
+}
+
+.selected {
+  background: orange;
+}
+
+.aisle {
+  width: 30px;
+}
+
+/* Button */
+button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: gray;
+}
+
+/* Side panel */
+.side-panel {
+  width: 250px;
+  background: #f4f4f4;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.history {
+  background: #e0e0e0;
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 6px;
+}
